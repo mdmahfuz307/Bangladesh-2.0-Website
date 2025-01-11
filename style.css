@@ -353,3 +353,66 @@ table th, td {
 .news-reverse{
     flex-direction: row-reverse;
 }
+
+
+.donation{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.donation-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+}
+.donation .section-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.active-bg{
+    background-color: #C6E4D6 !important;
+}
+.donation-btn{
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    font-weight: 700;
+    text-align: left;
+    margin: 12px 0px;
+}
+.donation-input{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 34px;
+    border: none;
+    font-size: 23px;
+    padding: 20px 40px 20px 40px;
+    outline: none;
+}
+.donation-final-btn{
+    text-align: center;
+    color: #F7EBCF;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding: 17px 34px 17px 34px;
+    margin: 32px 0px;
+}
+.input-section{
+    text-align: center;
+}
