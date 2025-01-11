@@ -416,3 +416,74 @@ table th, td {
 .input-section{
     text-align: center;
 }
+
+
+.subscription{
+    padding: 80px 100px 80px 100px;
+    border-radius: 24px;
+}
+
+.subscription-main{
+    width: 750px;
+    margin: 0 auto;
+}
+
+.subscription-input-container{
+    width: 100%;
+    display: flex;
+}
+
+.subscription-header{
+    padding: 24px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.subscription-input-container input{
+    width: 600px;
+    padding: 18px 40px 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    font-size: 18px;
+    text-align: start;
+}
+
+.subscription-main h1, p{
+    margin: 0 auto;
+}
+
+.subscription-input-container button{
+    color: #F7EBCF;
+    width: 150px;
+    padding: 17px 34px 17px 34px;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.subscription-footer{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    margin: 24px 0px;
+}
+
+
+footer{
+    width: auto;
+    height: 226px;
+} 
+.footer-container{
+    padding: 50px 160px 50px 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.imagebox img{
+    padding: 0 10px;
+}
