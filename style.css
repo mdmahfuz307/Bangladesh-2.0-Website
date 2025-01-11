@@ -251,3 +251,49 @@ border: none;
 .quote-description {
     margin-top: -50px;
 }
+
+.opinion-section {
+    padding-bottom: 50px;
+}
+
+.opinion-content {
+    padding: 32px;
+    margin: 24px 0px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+table {
+    width: 1220px;
+    box-sizing: border-box;
+    border-left: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+table th, td {
+    color: rgb(14, 14, 14);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: left;
+    margin: 0px 12px;
+    padding: 24px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    border-right: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+#opinion-select {
+    width: 152px;
+    color: rgb(14, 14, 14);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: left;
+    padding: 10px 14px 10px 14px;
+    box-sizing: border-box;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgba(9, 161, 92, 0.15);
+}
