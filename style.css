@@ -297,3 +297,59 @@ table th, td {
     border-radius: 4px;
     background: rgba(9, 161, 92, 0.15);
 }
+
+
+.newsdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+    padding: 48px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    margin: 24px 0px;
+}
+.news-img img{
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+}
+.news-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 12px 0px;
+}
+.al-jazeera{
+    width: 134px;
+    height: 40px;
+    margin: 12px 0px;
+    display: block;
+}
+.news-date{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+.news-description{
+    margin: 12px 0px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.news-button{
+    padding: 13px 26px 13px 26px;
+    margin: 32px 0;
+    color: #F7EBCF;
+    background-color: #006A50;
+}
+.news-reverse{
+    flex-direction: row-reverse;
+}
