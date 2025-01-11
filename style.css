@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1600px;
+    background: rgb(245, 245, 245);
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+main{
+    width: 1280px;
+    position: relative;
+    left: 0%;
+    top: 0%;
+    margin: auto;
+}
+
+.color1{
+    color:#006A50 ;
+}
+.color2{
+    background-color:#09A15C ;
+}
+.color3{
+    background-color: #C6E4D6;
+}
+.color4{
+    background-color:#5490F5 ;
+}
+.color5{
+    background-color:#F7EBCF ;
+}
+.color6{
+    background-color:#FFC239; 
+}
+.color7{
+    background: rgba(84, 144, 245, 0.2);
+}
+.primary-button{
+font-size: 18px;
+font-weight: 600;
+text-align: left;
+border-radius: 8px;
+border: none;
+}
+.primary-button:hover{
+    transition: all .5s ease;
+    background-color: #09A15C;
+}
+.section-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 24px 0px;
+}
+.section-description{
+    margin: 12px 0px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.center-align{
+    text-align: center;
+}
+
+.header{
+    width: 1280px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.logo{
+    width: 232px;
+}
+.logo p{
+    font-size: 32px;
+    text-align: left;
+}
+.nav-button{
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+}
+.nav-button:hover{
+    color: #F7EBCF;
+    background-color: #09A15C;
+}
+
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    border-radius: 24px;
+    background: rgba(198, 228, 214, 1.000);
+    margin: 80px 0px;
+    padding: 80px 100px;
+}
+
+.hero-subtitle {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.hero-title {
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    line-height: 67px;
+    text-align: left;
+    margin: 16px 0px;
+}
+
+.hero-button {
+    background-color: #006A50;
+    padding: 17px 34px;
+    color: #F7EBCF;
+    border: none;
+}
